@@ -1,0 +1,32 @@
+{
+  "name": "nxd/facebook-test",
+  "description": "Facebook API Proof of Concept",
+  "require": {
+    "php": "^8.3"
+  },
+  "scripts": {
+//    "install-client": [
+//      "cd client && npm install"
+//    ],
+//    "build-client": [
+//      "cd client && npm run build-safe"
+//    ],
+//    "post-install-deploy": [
+//      "rm -rf vendor",
+//      "composer clear-cache",
+//      "composer install --no-dev --optimize-autoloader"
+//    ],
+//    "deploy-zip": [
+//      "@post-install-deploy",
+//      "@build-client",
+//      "mkdir -p dist",
+//      "cd module && zip -r ../dist/mod_exposer.zip . -x '*.DS_Store' -x '*.git*' -x 'Thumbs.db' -x 'node_modules/*' -x  '*/vendor' -x 'vendor/*' -x '*/vendor/*' -x 'vendor/bin/*' -x '.idea' -x '.idea/*' -x '*/.idea' -x '*/.idea/*' '*/.gitignore' -x 'dist/*' -x 'composer.*' -x '*.zip'"
+//    ]
+  },
+  "config": {
+    "vendor-dir": "vendor",
+    "allow-plugins": {
+      "php-http/discovery": true
+    }
+  }
+}
