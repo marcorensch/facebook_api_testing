@@ -36,5 +36,7 @@ Now you have an short lived __access token__ for your app which you can use in t
 
 note:::
 The __access token__ for the page is __never-expire__ and you can use it for all requests.
-This code was successfully tested with graph api version 19.0 & 23.0
+This code was successfully tested with graph api version 19.0 & 23.0.
+The code should not be adapted "as is" but rather as a starting point for your own implementation.
+It is not intended to be used in production.
 
